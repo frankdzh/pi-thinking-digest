@@ -1,0 +1,31 @@
+{
+  "name": "pi-thinking-digest",
+  "version": "0.1.0",
+  "description": "Take over the hidden-thinking line in pi: three display modes (hide / per-message digest / per-turn fold), with thinking duration and one-line summaries.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "thinking",
+    "reasoning",
+    "tui",
+    "digest"
+  ],
+  "license": "MIT",
+  "author": "frankdzh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankdzh/pi-thinking-digest.git"
+  },
+  "files": [
+    "index.ts",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
